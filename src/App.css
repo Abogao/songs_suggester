@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  
+}
+.listaBandas{
+background-color: rgb(182, 182, 255);
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+.listaBandas li img{
+  border-radius: 10px;
+}
+.listaBandas li div{
+  margin-bottom: 30px;
+}
+
+.comentarios{
+  margin-top: 20px;
+}
+
+
+
+

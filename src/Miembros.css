@@ -1,0 +1,9 @@
+.miembros{
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 45px;
+}
+.miembros a{
+    text-decoration: none;
+}
