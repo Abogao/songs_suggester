@@ -19,7 +19,15 @@ background-color: rgb(182, 182, 255);
 .comentarios{
   margin-top: 20px;
 }
-
+.nav{
+  list-style: none;
+  display: inline;
+}
+.nav li{
+  display: inline;
+  margin-right: 20px;
+  
+}
 
 
 

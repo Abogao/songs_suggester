@@ -1,0 +1,11 @@
+.CardIntegrantes{
+display: inline-block;
+width: 300px;
+height: 400px;
+background-color: cornflowerblue;
+margin:20px;
+}
+.CardIntegrantes img{
+    width: 200px;
+    margin-top: 20px;
+}

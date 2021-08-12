@@ -15,7 +15,7 @@
 
 ## Para sincronizar todos los commits con el repositorio de internet 
 
-- git push origin "nombre_de_la_branch" (que por ahora es master) -> git push origin masteradd
+- git push origin "nombre_de_la_branch" (que por ahora es master) -> git push origin master
 
 ## Para bajarte cambios de internet a tu repositorio local
 
