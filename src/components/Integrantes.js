@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "../integrantes.css"
-import Sugerencias from "./sugerencias";
+import Sugerencias from "./Sugerencias";
 class Integrantes extends Component{
 
     render() {
