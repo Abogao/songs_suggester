@@ -14,13 +14,13 @@ function App() {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/MyBand">My Band</Link>
+                  <Link to="/my-band">My Band</Link>
                 </li>
               </ul>
             </nav>
           </div>
           <Switch>
-            <Route path="/MyBand">
+            <Route path="/my-band">
               <MyBand></MyBand>
             </Route>
             <Route path="/">

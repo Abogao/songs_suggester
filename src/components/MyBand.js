@@ -1,35 +1,36 @@
 import React from 'react'
-import IntegrantesCard from './Integrantes'
+import Integrantes from './Integrantes'
+
 
 
 const atributosIntegrantes=[
     {
         nombre:"Alan",
-        img:"",
+        img: "/imagenesCardIntegrantes/alan.png",
     },
     {
         nombre:"Poda",
-        img:"",
+        img:"/imagenesCardIntegrantes/poda.png",
     },
     {
         nombre:"Max",
-        img:"",
+        img: "/imagenesCardIntegrantes/max.png",
     },
     {
         nombre:"Echu",
-        img:"",
+        img:"/imagenesCardIntegrantes/echu.png",
     },
     {
         nombre:"Negro",
-        img:"",
+        img:"/imagenesCardIntegrantes/negro.png",
     },
     {
         nombre:"Lio",
-        img:"",
+        img:"/imagenesCardIntegrantes/lio.png",
     },
     {
         nombre:"Naza",
-        img:"",
+        img:"/imagenesCardIntegrantes/naza.png",
     }
 ]
 
@@ -39,9 +40,9 @@ function MyBand(){
     return(
         
         <div>
-             <h2>Integrantes</h2>
+             <h2>Don cesar y sus peones</h2>
              
-            <IntegrantesCard Integrantes={atributosIntegrantes} ></IntegrantesCard>
+            <Integrantes Integrantes={atributosIntegrantes} ></Integrantes>
         </div>
     )
 }

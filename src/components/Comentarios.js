@@ -16,6 +16,12 @@ const Comentarios = () => {
     setCajaComentarios([])
   };
 
+  const renderComments = () => {
+    return cajaComentarios.map((comentario, index) => {
+      return (<li key={index}>{comentario}</li>)
+    })
+  }
+
   return (
     <div>
       <input
@@ -26,9 +32,7 @@ const Comentarios = () => {
       <button onClick={() => addComment()}>Enviar</button>
       <button onClick={() => clearComments()}>Borrar</button>
       <ol>
-        {cajaComentarios.map((item) => {
-          return <li> {item} </li>;
-        })}
+        {renderComments()}
       </ol>
     </div>
   );

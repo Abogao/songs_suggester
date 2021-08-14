@@ -6,12 +6,12 @@ class Integrantes extends Component{
     render() {
         return (
           <div>
-            <h1> Bandas</h1>
             <div>
                {this.props.Integrantes.map(function(props){
                    return(
                        <div className="CardIntegrantes"> 
                        <img alt="" src={props.img}></img>
+                       <h3>{props.nombre} </h3>
                        <Sugerencias></Sugerencias>
                        
                        </div> 
