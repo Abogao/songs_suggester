@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "react-bootstrap/Button"
 
 const Sugerencias = () => {
   const [sugerencia, setSugerencia] = useState("");
@@ -23,8 +24,8 @@ const Sugerencias = () => {
         placeholder="Agregue su sugerencia:"
         onChange={handleSugerencia}
       ></input>
-      <button onClick={() => añadirSugerencia()}>Enviar</button>
-      <button onClick={() => borrarLista()}>Borrar</button>
+      <Button variant="dark" onClick={() => añadirSugerencia()}>Enviar</Button>
+      <Button onClick={() => borrarLista()}>Borrar</Button>
       <ol>
         {listaSugerencias.map((item) => {
           return <li> {item} </li>;

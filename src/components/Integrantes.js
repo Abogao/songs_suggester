@@ -12,8 +12,7 @@ class Integrantes extends Component{
                        <div className="CardIntegrantes"> 
                        <img alt="" src={props.img}></img>
                        <h3>{props.nombre} </h3>
-                       <Sugerencias></Sugerencias>
-                       
+                       <Sugerencias></Sugerencias>                       
                        </div> 
                    )
                } )}
