@@ -9,7 +9,6 @@ const Sugerencias = () => {
   const [listaSugerencias, setListaSugerencias] = useState([]);
 
   const añadirSugerencia = () => {
-    
     setListaSugerencias([...listaSugerencias, sugerencia]);
   };
 

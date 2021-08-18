@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const Comentarios = () => {
+
   const [comentario, setComentario] = useState("");
   const envioComentario = (evento) => {
     setComentario(evento.target.value);
@@ -34,6 +35,7 @@ const Comentarios = () => {
       <ol>
         {renderComments()}
       </ol>
+      
     </div>
   );
 };

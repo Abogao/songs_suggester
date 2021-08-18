@@ -1,40 +1,43 @@
 import React from 'react'
 import Integrantes from './Integrantes'
 
-
-
-const atributosIntegrantes=[
+const atributosIntegrantes = [
     {
-        nombre:"Alan",
-        img: "/imagenesCardIntegrantes/alan.png",
+      nombre: "Alan",
+      img: "/imagenesCardIntegrantes/alan.png",
+      sugerencias: [],
     },
     {
-        nombre:"Poda",
-        img:"/imagenesCardIntegrantes/poda.png",
+      nombre: "Poda",
+      img: "/imagenesCardIntegrantes/poda.png",
+      sugerencias: [],
     },
     {
-        nombre:"Max",
-        img: "/imagenesCardIntegrantes/max.png",
+      nombre: "Max",
+      img: "/imagenesCardIntegrantes/max.png",
+      sugerencias: [],
     },
     {
-        nombre:"Echu",
-        img:"/imagenesCardIntegrantes/echu.png",
+      nombre: "Echu",
+      img: "/imagenesCardIntegrantes/echu.png",
+      sugerencias: [],
     },
     {
-        nombre:"Negro",
-        img:"/imagenesCardIntegrantes/negro.png",
+      nombre: "Negro",
+      img: "/imagenesCardIntegrantes/negro.png",
+      sugerencias: [],
     },
     {
-        nombre:"Lio",
-        img:"/imagenesCardIntegrantes/lio.png",
+      nombre: "Lio",
+      img: "/imagenesCardIntegrantes/lio.png",
+      sugerencias: [],
     },
     {
-        nombre:"Naza",
-        img:"/imagenesCardIntegrantes/naza.png",
-    }
-]
-
-
+      nombre: "Naza",
+      img: "/imagenesCardIntegrantes/naza.png",
+      sugerencias: [],
+    },
+  ];
 
 function MyBand(){
     return(
@@ -42,7 +45,7 @@ function MyBand(){
         <div>
              <h2>Don cesar y sus peones</h2>
              
-            <Integrantes Integrantes={atributosIntegrantes} ></Integrantes>
+            <Integrantes integrantes={atributosIntegrantes} ></Integrantes>
         </div>
     )
 }
