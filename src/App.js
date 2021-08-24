@@ -2,6 +2,7 @@ import "./App.css";
 import InfoLio from "./components/InfoLio";
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import MyBand from "./components/MyBand";
+import Pokemon from "./components/Pokemon";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,9 @@ function App() {
             </nav>
           </div>
           <Switch>
+            <Route path="/pokemon">
+              <Pokemon></Pokemon>
+            </Route>
             <Route path="/my-band">
               <MyBand></MyBand>
             </Route>
